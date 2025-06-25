@@ -17,7 +17,7 @@ public class Node implements BasicGoodBehavior, Comparable<Node> {
     private Node next;
     /** Pointer to previous node */
     private Node previous;
-// efficently gets the next node
+// efficently gets the next node by calling, not transversing
     public Node getNext() {
     return this.next;
 } //Basic constructor

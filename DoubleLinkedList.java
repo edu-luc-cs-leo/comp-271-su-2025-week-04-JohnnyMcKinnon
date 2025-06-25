@@ -43,6 +43,7 @@ public class DoubleLinkedList implements Comparable<DoubleLinkedList> {
     this.tail = node;
     this.size++; //where we actually increase size based on the # of nodes
     } //Method add
+    
     // overload method add to add a node by value
     public void add(String value) {
     Node newNode = new Node(value);
