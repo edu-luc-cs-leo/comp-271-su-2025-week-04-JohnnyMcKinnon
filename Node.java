@@ -17,6 +17,10 @@ public class Node implements BasicGoodBehavior, Comparable<Node> {
     private Node next;
     /** Pointer to previous node */
     private Node previous;
+// efficently gets the next node
+    public Node getNext() {
+    return this.next;
+} //Basic constructor
 
     /** Basic constructor assigns a value to the node and two null pointers */
     public Node(String value) {
